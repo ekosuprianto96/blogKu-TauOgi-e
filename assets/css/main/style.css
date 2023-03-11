@@ -1,0 +1,147 @@
+
+body {
+    max-width: 100vw;
+}
+input.form-control:focus {
+    box-shadow: none;
+}
+/* Top Bar */
+.header {
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+}
+.navigation-top-bar-left {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navigation-top-bar-left li {
+    list-style: none;
+    border-right: 2px solid grey;
+    padding: 0px 7px;
+}
+.navigation-top-bar-left li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 0.8em;
+}
+.icon-social-top-bar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icon-social-top-bar li {
+    list-style: none;
+    padding: 0 7px;
+}
+.icon-social-top-bar li a {
+    color: white;
+}
+/* End Top Bar */
+
+/* Section Logo */
+.section-logo {
+    width: 100%;
+    padding: 7px;
+}
+.logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.advertisement-top {
+    width: 100%;
+}
+.advertisement-top img {
+    width: 100%;
+}
+/* Section Menu */
+.section-menu {
+    width: 100%;
+    background-color: black;
+}
+.navigation-top {
+    height: 100%;
+    height: 100%;
+}
+.menu-top {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.menu-top li {
+    list-style: none;
+    height: 100%;
+}
+.menu-top li a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 20px;
+    transition: 0.3s;
+    font-size: 1.3em;
+}
+.menu-top li a:hover {
+    background-color: orange;
+    color: black;
+}
+/* Content Hero */
+#main {
+    width: inherit;
+}
+.section-content-hero {
+    min-width: 100%;
+}
+.card-news-jumbo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    height: 500px;
+}
+.card-news-jumbo img {
+    height: 100%;
+}
+.card-news-mini {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-news-mini img {
+    height: 100%;
+}
+.card-news-mini .overlay {
+    padding: 15px;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 23%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.badge-kategori {
+    background-color: orange;
+    text-decoration: none;
+    padding: 7px 10px;
+}
