@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/main/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header d-none d-lg-block d-md-block">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -48,7 +48,7 @@
             </div>
         </div>
     </header>
-    <section class="section-logo p-3">
+    <section class="section-logo d-none d-lg-block d-md-block p-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -60,31 +60,33 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="advertisement-top">
-                        <img src="assets/images/ads-728x90.png" alt="">
+                        <a href="">
+                            <img src="assets/images/72ppi/ads.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-menu">
+    <section class="section-menu d-none d-lg-block d-md-block">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <nav class="navigation-top">
                         <ul class="menu-top">
                             <li>
-                                <a href="">Home</a>
+                                <a href="index.html" class="active-menu">Home</a>
                             </li>
                             <li>
-                                <a href="">
-                                    News
+                                <a href="category.html">
+                                    Category
                                 </a>
                             </li>
                             <li>
-                                <a href="">Kategori</a>
+                                <a href="single-page.html">Single Post</a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="contact.html">
                                     Kontak
                                 </a>
                             </li>
@@ -104,77 +106,793 @@
     </section>
     <main id="main">
         <section class="section-content-hero">
-            <div class="container-fluid p-0 m-0">
-                <div class="row p-0 w-100">
+            <div class="container-fluid p-0">
+                <div class="row p-0 w-100 m-0">
                     <div class="col-lg-7 p-0 border-primary">
-                        <div class="card-news-jumbo">
-                            <img src="assets/images/news-800x500-1.jpg" alt="">
-                            <div class="overlay">
-                                <div class="mb-3">
-                                    <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
-                                    <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                        <article>
+                            <div class="card-news-jumbo">
+                                <img src="assets/images/news-800x500-1.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="mb-3">
+                                        <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                        <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                    </div>
+                                    <a href="" class="anchor-link text-light fw-bold">
+                                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, repudiandae...</h3>
+                                    </a>
                                 </div>
-                                <a href="" class="text-decoration-none text-light fw-bold">
-                                     <h3 style="font-size: 1.8em;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, repudiandae...</h3>
-                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-5 p-0 border h-100">
+                        <div class="row p-0 m-0 w-100">
+                            <div class="col-lg-6 p-0">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-1.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 p-0">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-2.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 p-0">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-3.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 p-0">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-4.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 p-0 border h-100">
-                        <div class="row p-0">
-                            <div class="col-lg-6 p-0">
-                                <div class="card-news-mini">
-                                    <img src="assets/images/news-700x435-1.jpg" alt="">
-                                    <div class="overlay">
-                                        <div class="mb-3">
-                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
-                                            <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-featured-news mt-5">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-section">
+                            <div class="col-lg-6">
+                                <h3 class="m-0" style="height: max-content;font-size: 1.5em;font-weight: 700;text-transform: uppercase;">Featured News</h3>
+                            </div>
+                            <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                <button class="mx-2"><i class="bi bi-caret-left"></i></button>
+                                <button class="mx-2"><i class="bi bi-caret-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-3">
+                        <div class="row flex-nowrap overflow-hidden">
+                            <div class="col-lg-3">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-1.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
                                         </div>
-                                        <a href=""  class="text-decoration-none text-light fw-bold">
-                                            <h3 style="font-size: 1.2em;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
-                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-3">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-2.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-3">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-3.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-3">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-4.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-3">
+                                <article>
+                                    <div class="card-news-mini">
+                                        <img src="assets/images/news-700x435-5.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="mb-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                                            </div>
+                                            <a href=""  class="anchor-link text-light fw-bold">
+                                                <h3 style="font-size: 1em;color: white;font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-8">
+                        <div class="col-lg-12">
+                            <div class="title-section">
+                                <div class="col-lg-6">
+                                    <h3 class="m-0" style="height: max-content;font-size: 1.5em;font-weight: 700;text-transform: uppercase;">Latest News</h3>
+                                </div>
+                                <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                    <a href="" class="mx-3 text-decoration-none" style="color: rgb(48, 48, 48);">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article">
+                                        <div class="image-card-article">
+                                            <img src="assets/images/news-700x435-1.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article mb-3 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                            <div class="excerpt-card-article">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum velit accusamus ut! Placeat, sequi!
+                                            </div>
+                                        </div>
+                                        <div class="footer-card-article">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <i class="bi bi-person-circle"></i>
+                                                    <span>Admin</span>
+                                                </div>
+                                                <div class="info-article col-6 text-end">
+                                                    <a href="" class="mx-3 text-decoration-none"><i class="bi bi-eye-fill"></i> 20</a>
+                                                    <a href="" class="text-decoration-none"><i class="bi bi-chat-left-text-fill"></i> 30</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article">
+                                        <div class="image-card-article">
+                                            <img src="assets/images/news-700x435-2.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article mb-3 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article">
+                                                <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                            </div>
+                                            <div class="excerpt-card-article">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum velit accusamus ut! Placeat, sequi!
+                                            </div>
+                                        </div>
+                                        <div class="footer-card-article">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <i class="bi bi-person-circle"></i>
+                                                    <span>Admin</span>
+                                                </div>
+                                                <div class="info-article col-6 text-end">
+                                                    <a href="" class="mx-3 text-decoration-none"><i class="bi bi-eye-fill"></i> 20</a>
+                                                    <a href="" class="text-decoration-none"><i class="bi bi-chat-left-text-fill"></i> 30</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <a href="" title="Advertisement">
+                                    <img src="assets/images/72ppi/ads.png" alt="" width="100%">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article">
+                                        <div class="image-card-article">
+                                            <img src="assets/images/news-700x435-3.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article mb-3 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article">
+                                                <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                            </div>
+                                        </div>
+                                        <div class="footer-card-article">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <i class="bi bi-person-circle"></i>
+                                                    <span>Admin</span>
+                                                </div>
+                                                <div class="info-article col-6 text-end">
+                                                    <a href="" class="mx-3 text-decoration-none"><i class="bi bi-eye-fill"></i> 20</a>
+                                                    <a href="" class="text-decoration-none"><i class="bi bi-chat-left-text-fill"></i> 30</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article">
+                                        <div class="image-card-article">
+                                            <img src="assets/images/news-700x435-4.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article mb-3 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article">
+                                                <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                            </div>
+                                        </div>
+                                        <div class="footer-card-article">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <i class="bi bi-person-circle"></i>
+                                                    <span>Admin</span>
+                                                </div>
+                                                <div class="info-article col-6 text-end">
+                                                    <a href="" class="mx-3 text-decoration-none"><i class="bi bi-eye-fill"></i> 20</a>
+                                                    <a href="" class="text-decoration-none"><i class="bi bi-chat-left-text-fill"></i> 30</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article-2">
+                                        <div class="image-card-article-2">
+                                            <img src="assets/images/news-700x435-4.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-2 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-2">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article-2">
+                                        <div class="image-card-article-2">
+                                            <img src="assets/images/news-700x435-5.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-2 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-2">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article-2">
+                                        <div class="image-card-article-2">
+                                            <img src="assets/images/news-700x435-2.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-2 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-2">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article-2">
+                                        <div class="image-card-article-2">
+                                            <img src="assets/images/news-700x435-5.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-2 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-2">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <a href="" title="Advertisement">
+                                    <img src="assets/images/72ppi/ads.png" alt="" width="100%">
+                                </a>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <article>
+                                    <div class="card-article-3">
+                                        <div class="image-card-article-3">
+                                            <img src="assets/images/news-700x435-5.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-3 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-3">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                            <div class="excerpt-card-article-3 mb-3">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum velit accusamus ut! Placeat, sequi!
+                                            </div>
+                                            <div class="footer-card-article-3">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <i class="bi bi-person-circle"></i>
+                                                        <span>Admin</span>
+                                                    </div>
+                                                    <div class="info-article col-6 text-end">
+                                                        <a href="" class="mx-3 text-decoration-none"><i class="bi bi-eye-fill"></i> 20</a>
+                                                        <a href="" class="text-decoration-none"><i class="bi bi-chat-left-text-fill"></i> 30</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article-2">
+                                        <div class="image-card-article-2">
+                                            <img src="assets/images/news-700x435-2.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-2 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-2">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article-2">
+                                        <div class="image-card-article-2">
+                                            <img src="assets/images/news-700x435-5.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-2 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-2">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article-2">
+                                        <div class="image-card-article-2">
+                                            <img src="assets/images/news-700x435-2.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-2 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-2">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <article>
+                                    <div class="card-article-2">
+                                        <div class="image-card-article-2">
+                                            <img src="assets/images/news-700x435-5.jpg" alt="">
+                                        </div>
+                                        <div class="body-card-article-2 px-3">
+                                            <div class="my-3">
+                                                <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                            </div>
+                                            <div class="title-article-2">
+                                                <a href="" class="anchor-link">
+                                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-12 mb-3">
+                                <div class="title-section">
+                                    <div class="col-lg-6">
+                                        <h3 class="m-0" style="height: max-content;font-size: 1.5em;font-weight: 700;text-transform: uppercase;">Follow Us</h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 p-0">
-                                <div class="card-news-mini">
-                                    <img src="assets/images/news-700x435-2.jpg" alt="">
-                                    <div class="overlay">
-                                        <div class="mb-3">
-                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
-                                            <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
-                                        </div>
-                                        <a href=""  class="text-decoration-none text-light fw-bold">
-                                            <h3 style="font-size: 1.2em;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
-                                        </a>
+                            <div class="col-lg-12 mb-3">
+                                <div class="social-media">
+                                    <a href="" style="color: blue;">
+                                        <i class="bi bi-facebook"></i>
+                                        Facebook
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <div class="social-media">
+                                    <a href="" style="color: rgb(252, 60, 188);">
+                                        <i class="bi bi-instagram"></i>
+                                        Instagram
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <div class="social-media">
+                                    <a href="" style="color: rgb(0, 195, 255);">
+                                        <i class="bi bi-twitter"></i>
+                                        Twitter
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <div class="social-media">
+                                    <a href="" style="color: rgb(221, 8, 8);">
+                                        <i class="bi bi-youtube"></i>
+                                        Youtube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="title-section">
+                                    <div class="col-lg-6">
+                                        <h3 class="m-0" style="height: max-content;font-size: 1.5em;font-weight: 700;text-transform: uppercase;">Advertisement</h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 p-0">
-                                <div class="card-news-mini">
-                                    <img src="assets/images/news-700x435-3.jpg" alt="">
-                                    <div class="overlay">
-                                        <div class="mb-3">
-                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
-                                            <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
-                                        </div>
-                                        <a href=""  class="text-decoration-none text-light fw-bold">
-                                            <h3 style="font-size: 1.2em;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
-                                        </a>
+                            <div class="col-lg-12">
+                                <div class="image-advertisement">
+                                    <a href="">
+                                        <img src="assets/images/news-700x435-1.jpg" alt="">
+                                    </a>
+                                    <span class="d-block">Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-lg-12">
+                                <div class="title-section">
+                                    <div class="col-lg-6">
+                                        <h3 class="m-0" style="height: max-content;font-size: 1.5em;font-weight: 700;text-transform: uppercase;">Trend News</h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 p-0">
-                                <div class="card-news-mini">
-                                    <img src="assets/images/news-700x435-4.jpg" alt="">
-                                    <div class="overlay">
-                                        <div class="mb-3">
-                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
-                                            <a href="" style="text-decoration: none;color: white;">1 Mey 2023</a>
+                            <div class="col-lg-12 mt-3">
+                                <div class="row">
+                                    <div class="trend-news">
+                                        <div class="col-lg-12 mb-2">
+                                            <article>
+                                                <div class="card-article-2">
+                                                    <div class="image-card-article-2">
+                                                        <img src="assets/images/news-700x435-1.jpg" alt="">
+                                                    </div>
+                                                    <div class="body-card-article-2 px-3">
+                                                        <div class="my-3">
+                                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                            <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                                        </div>
+                                                        <div class="title-article-2">
+                                                            <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
                                         </div>
-                                        <a href=""  class="text-decoration-none text-light fw-bold">
-                                            <h3 style="font-size: 1.2em;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
-                                        </a>
+                                        <div class="col-lg-12 mb-2">
+                                            <article>
+                                                <div class="card-article-2">
+                                                    <div class="image-card-article-2">
+                                                        <img src="assets/images/news-700x435-2.jpg" alt="">
+                                                    </div>
+                                                    <div class="body-card-article-2 px-3">
+                                                        <div class="my-3">
+                                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                            <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                                        </div>
+                                                        <div class="title-article-2">
+                                                            <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-12 mb-2">
+                                            <article>
+                                                <div class="card-article-2">
+                                                    <div class="image-card-article-2">
+                                                        <img src="assets/images/news-700x435-3.jpg" alt="">
+                                                    </div>
+                                                    <div class="body-card-article-2 px-3">
+                                                        <div class="my-3">
+                                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                            <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                                        </div>
+                                                        <div class="title-article-2">
+                                                            <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-12 mb-2">
+                                            <article>
+                                                <div class="card-article-2">
+                                                    <div class="image-card-article-2">
+                                                        <img src="assets/images/news-700x435-4.jpg" alt="">
+                                                    </div>
+                                                    <div class="body-card-article-2 px-3">
+                                                        <div class="my-3">
+                                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                            <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                                        </div>
+                                                        <div class="title-article-2">
+                                                            <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-lg-12">
+                                <div class="title-section">
+                                    <div class="col-lg-6">
+                                        <h3 class="m-0" style="height: max-content;font-size: 1.5em;font-weight: 700;text-transform: uppercase;">Recomendation</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <div class="row">
+                                    <div class="trend-news">
+                                        <div class="col-lg-12 mb-2">
+                                            <article>
+                                                <div class="card-article-2">
+                                                    <div class="image-card-article-2">
+                                                        <img src="assets/images/news-700x435-1.jpg" alt="">
+                                                    </div>
+                                                    <div class="body-card-article-2 px-3">
+                                                        <div class="my-3">
+                                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                            <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                                        </div>
+                                                        <div class="title-article-2">
+                                                            <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-12 mb-2">
+                                            <article>
+                                                <div class="card-article-2">
+                                                    <div class="image-card-article-2">
+                                                        <img src="assets/images/news-700x435-2.jpg" alt="">
+                                                    </div>
+                                                    <div class="body-card-article-2 px-3">
+                                                        <div class="my-3">
+                                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                            <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                                        </div>
+                                                        <div class="title-article-2">
+                                                            <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-12 mb-2">
+                                            <article>
+                                                <div class="card-article-2">
+                                                    <div class="image-card-article-2">
+                                                        <img src="assets/images/news-700x435-3.jpg" alt="">
+                                                    </div>
+                                                    <div class="body-card-article-2 px-3">
+                                                        <div class="my-3">
+                                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                            <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                                        </div>
+                                                        <div class="title-article-2">
+                                                            <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-12 mb-2">
+                                            <article>
+                                                <div class="card-article-2">
+                                                    <div class="image-card-article-2">
+                                                        <img src="assets/images/news-700x435-4.jpg" alt="">
+                                                    </div>
+                                                    <div class="body-card-article-2 px-3">
+                                                        <div class="my-3">
+                                                            <a href="" class="badge-kategori text-dark fw-bold">Busines</a>
+                                                            <a href="" style="text-decoration: none;color: grey;">1 Mey 2023</a>
+                                                        </div>
+                                                        <div class="title-article-2">
+                                                            <a href="" class="anchor-link">
+                                                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing...</h3>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
