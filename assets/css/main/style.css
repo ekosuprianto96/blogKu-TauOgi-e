@@ -332,4 +332,52 @@ input.form-control:focus {
     }
     
 }
-
+.footer {
+    background-color: rgb(36, 36, 36);
+}
+.icon-social-footer {
+    border: 1px solid solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+.icon-social-footer a {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(66, 66, 66);
+}
+.icon-social-footer a:hover {
+    opacity: 0.8;
+}
+.warpper-category-footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.warpper-category-footer a {
+    padding: 2px  5px;
+    background-color: gray;
+    margin: 5px;
+    max-width: max-content;
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.credit-footer {
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
